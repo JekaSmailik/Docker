@@ -28,3 +28,6 @@ RUN nginx -v
 #10 шаг. Установка caddy 
 RUN apk add caddy
 
+#11 шаг. Установка unit
+# RUN apk add unit-openrc unit-perl unit-php7 unit-python3 unit-ruby
+RUN apk add unit
